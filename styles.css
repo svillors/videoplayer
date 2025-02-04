@@ -27,10 +27,18 @@
     background-color: transparent;
 }
 
-.fa-play {
+.fa {
     color: white;
 }
 
-.fa-pause {
-    color: white;
+.js-mute-button {
+    border-style: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.js-volume-button {
+    border-style: none;
+    cursor: pointer;
+    background-color: transparent;
 }
