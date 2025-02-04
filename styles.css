@@ -16,12 +16,14 @@
 }
 
 .js-play-button {
+    font-size: 120%;
     border-style: none;
     cursor: pointer;
     background-color: transparent;
 }
 
 .js-pause-button {
+    font-size: 120%;
     border-style: none;
     cursor: pointer;
     background-color: transparent;
@@ -32,12 +34,14 @@
 }
 
 .js-mute-button {
+    font-size: 120%;
     border-style: none;
     cursor: pointer;
     background-color: transparent;
 }
 
 .js-volume-button {
+    font-size: 120%;
     border-style: none;
     cursor: pointer;
     background-color: transparent;
