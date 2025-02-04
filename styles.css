@@ -1,0 +1,33 @@
+.video-player {
+    width: 800px;
+    height: 600px;
+}
+
+.js-video-container {
+    width: 100%;
+    height: 100%
+}
+
+.video-player-buttons {
+    background-color: black;
+}
+
+.js-play-button {
+    border-style: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.js-pause-button {
+    border-style: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.fa-play {
+    color: white;
+}
+
+.fa-pause {
+    color: white;
+}
