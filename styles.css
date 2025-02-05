@@ -20,6 +20,7 @@
     border-style: none;
     cursor: pointer;
     background-color: transparent;
+    margin-right: 2px;
 }
 
 .js-pause-button {
@@ -27,6 +28,7 @@
     border-style: none;
     cursor: pointer;
     background-color: transparent;
+    margin-right: 4.5px;
 }
 
 .fa {
