@@ -6,56 +6,34 @@
     flex-direction: column;
 }
 
-.js-video-container {
+.video-container {
     display: flex;
     flex-grow: 1;
 }
 
-.video-player-buttons {
+.video-player-interface {
     background-color: black;
     display: flex;
     flex-direction: row;
 }
 
-.js-play-button {
-    font-size: 120%;
+.player-buttons {
+    font-size: 19px;
     border-style: none;
     cursor: pointer;
     background-color: transparent;
+}
+
+.play-button {
     margin-right: 2px;
 }
 
-.js-pause-button {
-    font-size: 120%;
-    border-style: none;
-    cursor: pointer;
-    background-color: transparent;
+.pause-button {
     margin-right: 4.5px;
 }
 
-.fa {
+.video-player-icons {
     color: white;
-}
-
-.js-mute-button {
-    font-size: 120%;
-    border-style: none;
-    cursor: pointer;
-    background-color: transparent;
-}
-
-.js-volume-button {
-    font-size: 120%;
-    border-style: none;
-    cursor: pointer;
-    background-color: transparent;
-}
-
-.js-fullscreen-button {
-    font-size: 120%;
-    border-style: none;
-    cursor: pointer;
-    background-color: transparent;
 }
 
 .filler {
