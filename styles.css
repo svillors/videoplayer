@@ -75,4 +75,13 @@
     border-width: 3px;
     margin-top: -4.5px;
     margin-left: -8.5px;
-  }
+    opacity: 0;
+    transition: 300ms;
+    transition-timing-function: ease-in;
+}
+
+.video-player-interface:hover .circle {
+    opacity: 1;
+    transition: 300ms;
+    transition-timing-function: ease-out;
+}
