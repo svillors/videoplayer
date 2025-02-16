@@ -57,6 +57,7 @@
     margin-left: 10px;
     flex-grow: 1;
     height: 5px;
+    cursor: pointer;
 }
 
 .progress-slider {
@@ -78,10 +79,15 @@
     opacity: 0;
     transition: 300ms;
     transition-timing-function: ease-in;
+    cursor: pointer;
 }
 
 .video-player-interface:hover .circle {
     opacity: 1;
     transition: 300ms;
     transition-timing-function: ease-out;
+}
+
+.player-buttons:focus {
+    border: 0.5px solid white;
 }
