@@ -38,8 +38,6 @@
 
 .video-time {
     font-size: 16px;
-    margin-left: 2.5px;
-    margin-top: 11px;
     display: flex;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -48,8 +46,6 @@
 .progress {
     display: flex;
     border-radius: 10px;
-    margin-top: 18px;
-    margin-left: 10px;
     flex-grow: 1;
     height: 5px;
     cursor: pointer;
@@ -85,4 +81,16 @@
 
 .player-buttons:focus {
     border: 0.5px solid white;
+}
+
+.video-timeline-wrapper {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    gap: 11px;
+}
+
+.current-time {
+    margin-left: 2px;
+    margin-bottom: 1.5px;
 }
